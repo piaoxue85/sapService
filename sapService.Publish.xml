@@ -1,0 +1,8 @@
+<publishData>
+  <publishTarget publishUrl="C:\Users\Administrator\Desktop\soap\">
+    <file relUrl="bin/sapService.pdb" publishTime="09/06/2018 11:17:09" />
+    <file relUrl="Service1.asmx" publishTime="08/30/2018 09:41:34" />
+    <file relUrl="bin/sapService.dll" publishTime="09/06/2018 11:17:09" />
+    <file relUrl="Web.config" publishTime="08/30/2018 10:12:09" />
+  </publishTarget>
+</publishData>

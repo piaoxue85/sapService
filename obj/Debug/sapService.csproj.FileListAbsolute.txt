@@ -1,0 +1,54 @@
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\WindowsFormsApplication1\sapService\bin\sapService.dll
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\WindowsFormsApplication1\sapService\bin\sapService.pdb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\WindowsFormsApplication1\sapService\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\WindowsFormsApplication1\sapService\obj\Debug\sapService.dll
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\WindowsFormsApplication1\sapService\obj\Debug\sapService.pdb
+D:\VS_workspesk2017\SapInterface_test\sapService\bin\sapService.dll.config
+D:\VS_workspesk2017\SapInterface_test\sapService\bin\sapService.dll
+D:\VS_workspesk2017\SapInterface_test\sapService\bin\sapService.pdb
+D:\VS_workspesk2017\SapInterface_test\sapService\obj\Debug\sapService.csprojAssemblyReference.cache
+D:\VS_workspesk2017\SapInterface_test\sapService\obj\Debug\sapService.csproj.CoreCompileInputs.cache
+D:\VS_workspesk2017\SapInterface_test\sapService\obj\Debug\sapService.dll
+D:\VS_workspesk2017\SapInterface_test\sapService\obj\Debug\sapService.pdb
+D:\VS_workspesk2017\SapInterface_test\sapService\obj\Debug\sapService.csproj.CopyComplete
+D:\VS_workspesk2017\SapInterface_test\sapService\bin\Newtonsoft.Json.dll
+D:\VS_workspesk2017\SapInterface_test\sapService\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\sapService\obj\Debug\sapService.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\sapService\obj\Debug\sapService.dll
+C:\Users\Administrator\Desktop\sapService\obj\Debug\sapService.pdb
+C:\Users\Administrator\Desktop\sapService\bin\sapService.dll.config
+C:\Users\Administrator\Desktop\sapService\bin\sapService.dll
+C:\Users\Administrator\Desktop\sapService\bin\sapService.pdb
+C:\Users\Administrator\Desktop\sapService\bin\Newtonsoft.Json.xml
+D:\VS_workspesk2017\SapInterface_test\新建文件夹\obj\Debug\sapService.csprojAssemblyReference.cache
+D:\VS_workspesk2017\SapInterface_test\新建文件夹\obj\Debug\sapService.csproj.CoreCompileInputs.cache
+D:\VS_workspesk2017\SapInterface_test\新建文件夹\obj\Debug\sapService.dll
+D:\VS_workspesk2017\SapInterface_test\新建文件夹\obj\Debug\sapService.pdb
+D:\VS_workspesk2017\SapInterface_test\新建文件夹\bin\sapService.dll.config
+D:\VS_workspesk2017\SapInterface_test\新建文件夹\bin\sapService.dll
+D:\VS_workspesk2017\SapInterface_test\新建文件夹\bin\sapService.pdb
+D:\VS_workspesk2017\SapInterface_test\新建文件夹\bin\Newtonsoft.Json.dll
+D:\VS_workspesk2017\SapInterface_test\新建文件夹\bin\Newtonsoft.Json.xml
+D:\VS_workspesk2017\SapInterface_test\新建文件夹\obj\Debug\sapService.csproj.CopyComplete
+D:\VS_workspesk2017\SapInterface_test\新建文件夹\bin\CYQ.Data.dll
+F:\SapInterface_test\新建文件夹\bin\sapService.dll.config
+F:\SapInterface_test\新建文件夹\bin\sapService.dll
+F:\SapInterface_test\新建文件夹\bin\sapService.pdb
+F:\SapInterface_test\新建文件夹\bin\Newtonsoft.Json.dll
+F:\SapInterface_test\新建文件夹\bin\Newtonsoft.Json.xml
+F:\SapInterface_test\新建文件夹\obj\Debug\sapService.csprojResolveAssemblyReference.cache
+F:\SapInterface_test\新建文件夹\obj\Debug\sapService.csproj.CoreCompileInputs.cache
+F:\SapInterface_test\新建文件夹\obj\Debug\sapService.csproj.CopyComplete
+F:\SapInterface_test\新建文件夹\obj\Debug\sapService.dll
+F:\SapInterface_test\新建文件夹\obj\Debug\sapService.pdb
+F:\SapInterface\SapInterface_test\新建文件夹\bin\sapService.dll.config
+F:\SapInterface\SapInterface_test\新建文件夹\bin\sapService.dll
+F:\SapInterface\SapInterface_test\新建文件夹\bin\sapService.pdb
+F:\SapInterface\SapInterface_test\新建文件夹\bin\CYQ.Data.dll
+F:\SapInterface\SapInterface_test\新建文件夹\bin\Newtonsoft.Json.dll
+F:\SapInterface\SapInterface_test\新建文件夹\bin\Newtonsoft.Json.xml
+F:\SapInterface\SapInterface_test\新建文件夹\obj\Debug\sapService.csprojAssemblyReference.cache
+F:\SapInterface\SapInterface_test\新建文件夹\obj\Debug\sapService.csproj.CoreCompileInputs.cache
+F:\SapInterface\SapInterface_test\新建文件夹\obj\Debug\sapService.csproj.CopyComplete
+F:\SapInterface\SapInterface_test\新建文件夹\obj\Debug\sapService.dll
+F:\SapInterface\SapInterface_test\新建文件夹\obj\Debug\sapService.pdb
