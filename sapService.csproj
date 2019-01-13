@@ -58,6 +58,8 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.Web.DynamicData" />
@@ -71,10 +73,21 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Connected Services\ConsumerElectric\configuration91.svcinfo" />
+    <None Include="Connected Services\ConsumerElectric\configuration.svcinfo" />
+    <None Include="Connected Services\ConsumerElectric\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
     <Content Include="Web.config" />
     <Content Include="WmsService.asmx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Connected Services\ConsumerElectric\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="Helper\CastUtil.cs" />
     <Compile Include="Helper\ConvertUtil.cs" />
     <Compile Include="Helper\StringUtil.cs" />
@@ -112,7 +125,56 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Connected Services\ConsumerElectric\sapService.ConsumerElectric.ch_transdateResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\ConsumerElectric\sapService.ConsumerElectric.ch_transtypeResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\ConsumerElectric\sapService.ConsumerElectric.GetfxxtoshopResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\ConsumerElectric\sapService.ConsumerElectric.GetjdstoretoshopResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\ConsumerElectric\sapService.ConsumerElectric.GetStockResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\ConsumerElectric\sapService.ConsumerElectric.reTransBean.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\ConsumerElectric\sapService.ConsumerElectric.shopBean.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\ConsumerElectric\sapService.ConsumerElectric.shopToStore.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\ConsumerElectric\sapService.ConsumerElectric.stockBean.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\ConsumerElectric\sapService.ConsumerElectric.testQResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\ConsumerElectric\sapService.ConsumerElectric.testResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\ConsumerElectric\sapService.ConsumerElectric.transportResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\ConsumerElectric\sapService.ConsumerElectric.t_transResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Connected Services\ConsumerElectric\ServiceService.wsdl" />
+    <None Include="Connected Services\ConsumerElectric\ServiceService_schema1.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\ConsumerElectric\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

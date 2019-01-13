@@ -11,36 +11,25 @@ namespace sapService.sapModel
     public class SapDtrd
     {
 
-        private string _EbelnT;
         /// <summary>
         /// 退单号
         /// </summary>
         public string EbelnT
         {
-            get
-            {
-                return _EbelnT;
-            }
-            set
-            {
-                _EbelnT = value;
-            }
+            get; set;
         }
-        private string _Matnr;
+      
         /// <summary>
         /// 商品编码
         /// </summary>
         public string Matnr
         {
-            get
-            {
-                return _Matnr;
-            }
-            set
-            {
-                _Matnr = value;
-            }
+            get; set;
         }
+        /// <summary>
+        /// 商品名称
+        /// </summary>
+        public string Maktx { get; set; }
         /// <summary>
         /// 数量
         /// </summary>
@@ -49,65 +38,33 @@ namespace sapService.sapModel
             get; set;
             
         }
-        private string _Meins;
         /// <summary>
         /// 基本单位
         /// </summary>
         public string Meins
         {
-            get
-            {
-                return _Meins;
-            }
-            set
-            {
-                _Meins = value;
-            }
+            get; set;
         }
-        private string _Werks;
         /// <summary>
         /// 工厂
         /// </summary>
         public string Werks
         {
-            get
-            {
-                return _Werks;
-            }
-            set
-            {
-                _Werks = value;
-            }
+            get; set;
         }
-        private string _LgortC;
         /// <summary>
         /// 移除库存地点
         /// </summary>
         public string LgortC
         {
-            get
-            {
-                return _LgortC;
-            }
-            set
-            {
-                _LgortC = value;
-            }
+            get; set;
         }
-        private string _LgortR;
         /// <summary>
         /// 移入库存地点
         /// </summary>
         public string LgortR
         {
-            get
-            {
-                return _LgortR;
-            }
-            set
-            {
-                _LgortR = value;
-            }
+            get; set;
         }
     }
 }

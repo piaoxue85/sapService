@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://transport/" targetNamespace="http://transport/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="GetStock" type="tns:GetStock" />
+  <xs:element name="GetStockResponse" type="tns:GetStockResponse" />
+  <xs:element name="Getfxxtoshop" type="tns:Getfxxtoshop" />
+  <xs:element name="GetfxxtoshopResponse" type="tns:GetfxxtoshopResponse" />
+  <xs:element name="Getjdstoretoshop" type="tns:Getjdstoretoshop" />
+  <xs:element name="GetjdstoretoshopResponse" type="tns:GetjdstoretoshopResponse" />
+  <xs:element name="ch_transdate" type="tns:ch_transdate" />
+  <xs:element name="ch_transdateResponse" type="tns:ch_transdateResponse" />
+  <xs:element name="ch_transtype" type="tns:ch_transtype" />
+  <xs:element name="ch_transtypeResponse" type="tns:ch_transtypeResponse" />
+  <xs:element name="t_trans" type="tns:t_trans" />
+  <xs:element name="t_transResponse" type="tns:t_transResponse" />
+  <xs:element name="test" type="tns:test" />
+  <xs:element name="testQ" type="tns:testQ" />
+  <xs:element name="testQResponse" type="tns:testQResponse" />
+  <xs:element name="testResponse" type="tns:testResponse" />
+  <xs:element name="transport" type="tns:transport" />
+  <xs:element name="transportResponse" type="tns:transportResponse" />
+  <xs:complexType name="Getfxxtoshop">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="tns:shopToStore" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="shopToStore">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="shopid" type="xs:string" />
+      <xs:element minOccurs="0" name="storeno" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetfxxtoshopResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" nillable="true" type="tns:shopToStore" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetStock">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="tns:stockBean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="stockBean">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CLABS_K" type="xs:string" />
+      <xs:element minOccurs="0" name="CLABS_X" type="xs:string" />
+      <xs:element minOccurs="0" name="CLABS_Z" type="xs:string" />
+      <xs:element minOccurs="0" name="EKGRP" type="xs:string" />
+      <xs:element minOccurs="0" name="LGORT" type="xs:string" />
+      <xs:element minOccurs="0" name="MATNR" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetStockResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" nillable="true" type="tns:stockBean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="test">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="testResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Getjdstoretoshop">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="tns:shopBean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="shopBean">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="shopid" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GetjdstoretoshopResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" nillable="true" type="tns:shopBean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="t_trans">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="tns:tsportBean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="tsportBean">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="address" type="xs:string" />
+      <xs:element minOccurs="0" name="applyno" type="xs:string" />
+      <xs:element minOccurs="0" name="custno" type="xs:string" />
+      <xs:element minOccurs="0" name="customer" type="xs:string" />
+      <xs:element minOccurs="0" name="fname" type="xs:string" />
+      <xs:element minOccurs="0" name="fxxgrp" type="xs:string" />
+      <xs:element minOccurs="0" name="hprc" type="xs:string" />
+      <xs:element minOccurs="0" name="incode" type="xs:string" />
+      <xs:element minOccurs="0" name="map" type="xs:string" />
+      <xs:element minOccurs="0" name="operater" type="xs:string" />
+      <xs:element minOccurs="0" name="ordertype" type="xs:string" />
+      <xs:element minOccurs="0" name="outprd" type="xs:string" />
+      <xs:element minOccurs="0" name="pflag" type="xs:string" />
+      <xs:element minOccurs="0" name="pretransdate" type="xs:string" />
+      <xs:element minOccurs="0" name="purcode" type="xs:string" />
+      <xs:element minOccurs="0" name="purtime" type="xs:string" />
+      <xs:element minOccurs="0" name="qty" type="xs:string" />
+      <xs:element minOccurs="0" name="remark" type="xs:string" />
+      <xs:element minOccurs="0" name="sgrpno" type="xs:string" />
+      <xs:element minOccurs="0" name="stat" type="xs:string" />
+      <xs:element minOccurs="0" name="storeno" type="xs:string" />
+      <xs:element minOccurs="0" name="tel" type="xs:string" />
+      <xs:element minOccurs="0" name="unit" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="t_transResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" nillable="true" type="tns:reTransBean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="reTransBean">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="purcode" type="xs:string" />
+      <xs:element minOccurs="0" name="putorderno" type="xs:string" />
+      <xs:element minOccurs="0" name="stat" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ch_transdate">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="tns:chTasnsdate" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="chTasnsdate">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="applyno" type="xs:string" />
+      <xs:element minOccurs="0" name="pretransdate" type="xs:string" />
+      <xs:element minOccurs="0" name="purcode" type="xs:string" />
+      <xs:element minOccurs="0" name="putroderno" type="xs:string" />
+      <xs:element minOccurs="0" name="remark" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ch_transdateResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" nillable="true" type="tns:reTransBean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="testQ">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="tns:queryModel" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="queryModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="grpno" type="xs:string" />
+      <xs:element minOccurs="0" name="incode" type="xs:string" />
+      <xs:element minOccurs="0" name="storeno" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="testQResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="transport">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="tns:sportBean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="sportBean">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="address" type="xs:string" />
+      <xs:element minOccurs="0" name="applyno" type="xs:string" />
+      <xs:element minOccurs="0" name="customer" type="xs:string" />
+      <xs:element minOccurs="0" name="fxxgrp" type="xs:string" />
+      <xs:element minOccurs="0" name="incode" type="xs:string" />
+      <xs:element minOccurs="0" name="install" type="xs:string" />
+      <xs:element minOccurs="0" name="map" type="xs:string" />
+      <xs:element minOccurs="0" name="operater" type="xs:string" />
+      <xs:element minOccurs="0" name="ordertype" type="xs:string" />
+      <xs:element minOccurs="0" name="pflag" type="xs:string" />
+      <xs:element minOccurs="0" name="pretransdate" type="xs:string" />
+      <xs:element minOccurs="0" name="purcode" type="xs:string" />
+      <xs:element minOccurs="0" name="purtime" type="xs:string" />
+      <xs:element minOccurs="0" name="putorderno" type="xs:string" />
+      <xs:element name="qty" type="xs:double" />
+      <xs:element minOccurs="0" name="remark" type="xs:string" />
+      <xs:element minOccurs="0" name="sgrpno" type="xs:string" />
+      <xs:element minOccurs="0" name="stat" type="xs:string" />
+      <xs:element minOccurs="0" name="storeno" type="xs:string" />
+      <xs:element minOccurs="0" name="tel" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="transportResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" nillable="true" type="tns:reTransBean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ch_transtype">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="tns:chTranstype" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="chTranstype">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="applyno" type="xs:string" />
+      <xs:element minOccurs="0" name="map" type="xs:string" />
+      <xs:element minOccurs="0" name="pretransdate" type="xs:string" />
+      <xs:element minOccurs="0" name="purcode" type="xs:string" />
+      <xs:element minOccurs="0" name="putroderno" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ch_transtypeResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" nillable="true" type="tns:reTransBean" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

@@ -899,6 +899,7 @@ namespace sapService
                                 _logInfo.Info("TransDtro", "开始处理差异移库单:[" + bean.EbelnT + "]-["+ item.Matnr + "]\r\n");
                                 action.Set("EBELN_T",bean.EbelnT);                                
                                 action.Set("Matnr", item.Matnr);
+                                action.Set("MAKTX", item.Maktx);
                                 action.Set("MENGE", CastUtil.CastDecimal(item.Menge));
                                 action.Set("MEINS", item.Meins);
                                 action.Set("Werks", item.Werks);
@@ -922,7 +923,7 @@ namespace sapService
             }
             return new MessWms()
             {
-                TYPE = MessWms.failure,
+                TYPE = MessWms.success,
                 Mess = "处理成功!"
             };
         }

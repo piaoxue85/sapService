@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://transport/" name="ServiceService" targetNamespace="http://transport/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="ServiceService_schema1.xsd" namespace="http://transport/" />
+    </xsd:schema>
+  </types>
+  <message name="ch_transdate">
+    <part name="parameters" element="tns:ch_transdate" />
+  </message>
+  <message name="t_trans">
+    <part name="parameters" element="tns:t_trans" />
+  </message>
+  <message name="ch_transdateResponse">
+    <part name="parameters" element="tns:ch_transdateResponse" />
+  </message>
+  <message name="t_transResponse">
+    <part name="parameters" element="tns:t_transResponse" />
+  </message>
+  <message name="testQ">
+    <part name="parameters" element="tns:testQ" />
+  </message>
+  <message name="test">
+    <part name="parameters" element="tns:test" />
+  </message>
+  <message name="testResponse">
+    <part name="parameters" element="tns:testResponse" />
+  </message>
+  <message name="ch_transtype">
+    <part name="parameters" element="tns:ch_transtype" />
+  </message>
+  <message name="transport">
+    <part name="parameters" element="tns:transport" />
+  </message>
+  <message name="ch_transtypeResponse">
+    <part name="parameters" element="tns:ch_transtypeResponse" />
+  </message>
+  <message name="transportResponse">
+    <part name="parameters" element="tns:transportResponse" />
+  </message>
+  <message name="testQResponse">
+    <part name="parameters" element="tns:testQResponse" />
+  </message>
+  <message name="GetStock">
+    <part name="parameters" element="tns:GetStock" />
+  </message>
+  <message name="Getfxxtoshop">
+    <part name="parameters" element="tns:Getfxxtoshop" />
+  </message>
+  <message name="GetStockResponse">
+    <part name="parameters" element="tns:GetStockResponse" />
+  </message>
+  <message name="GetfxxtoshopResponse">
+    <part name="parameters" element="tns:GetfxxtoshopResponse" />
+  </message>
+  <message name="Getjdstoretoshop">
+    <part name="parameters" element="tns:Getjdstoretoshop" />
+  </message>
+  <message name="GetjdstoretoshopResponse">
+    <part name="parameters" element="tns:GetjdstoretoshopResponse" />
+  </message>
+  <portType name="ServiceDelegate">
+    <operation name="GetStock">
+      <input message="tns:GetStock" />
+      <output message="tns:GetStockResponse" />
+    </operation>
+    <operation name="transport">
+      <input message="tns:transport" />
+      <output message="tns:transportResponse" />
+    </operation>
+    <operation name="t_trans">
+      <input message="tns:t_trans" />
+      <output message="tns:t_transResponse" />
+    </operation>
+    <operation name="ch_transdate">
+      <input message="tns:ch_transdate" />
+      <output message="tns:ch_transdateResponse" />
+    </operation>
+    <operation name="ch_transtype">
+      <input message="tns:ch_transtype" />
+      <output message="tns:ch_transtypeResponse" />
+    </operation>
+    <operation name="Getjdstoretoshop">
+      <input message="tns:Getjdstoretoshop" />
+      <output message="tns:GetjdstoretoshopResponse" />
+    </operation>
+    <operation name="Getfxxtoshop">
+      <input message="tns:Getfxxtoshop" />
+      <output message="tns:GetfxxtoshopResponse" />
+    </operation>
+    <operation name="test">
+      <input message="tns:test" />
+      <output message="tns:testResponse" />
+    </operation>
+    <operation name="testQ">
+      <input message="tns:testQ" />
+      <output message="tns:testQResponse" />
+    </operation>
+  </portType>
+  <binding name="ServicePortBinding" type="tns:ServiceDelegate">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="GetStock">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="transport">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="t_trans">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ch_transdate">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ch_transtype">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="Getjdstoretoshop">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="Getfxxtoshop">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="test">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="testQ">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="ServiceService">
+    <port name="ServicePort" binding="tns:ServicePortBinding">
+      <soap:address location="http://10.1.16.31:9080/sapservice/ServiceService" />
+    </port>
+  </service>
+</definitions>
